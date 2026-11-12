@@ -1,0 +1,19 @@
+# Local game/reference files and generated output
+game/
+work/
+Payload/
+Model/
+Roar/
+Recovery/
+bin/
+obj/
+__pycache__/
+*.pyc
+*.dll
+*.exe
+*.bank
+*.wav
+*.webm
+*.zip
+*.log
+*.chompy-*-original

@@ -1,0 +1,25 @@
+C# 7.3 / Mono library. Compile TinyRexPlaytime.cs, ControlsCore.cs and EmbeddedArms.cs into
+Payload/BepInEx/plugins/TinyRexPlaytime/TinyRexPlaytime.dll with /nostdlib.
+Reference the game's Untitled_Data/Managed copies of:
+mscorlib.dll, System.dll, System.Core.dll, netstandard.dll, UnityEngine.dll,
+UnityEngine.CoreModule.dll, UnityEngine.ParticleSystemModule.dll,
+UnityEngine.PhysicsModule.dll, UnityEngine.InputModule.dll,
+UnityEngine.IMGUIModule.dll, UnityEngine.TextRenderingModule.dll,
+UnityEngine.AnimationModule.dll,
+Assembly-CSharp.dll, Assembly-CSharp-firstpass.dll, Rewired_Core.dll.
+Also reference Payload/BepInEx/core/BepInEx.dll.
+No .NET 8 runtime dependency is introduced. Roslyn from SDK 8.0.100 was used solely
+as a compiler against those existing Mono/Unity references.
+The FMOD binding in this game uses RuntimeManager.LowlevelSystem (not CoreSystem).
+If rebuilding the DLL, update its SHA-256 entry in install-manifest.json.
+Tests/ControlsTests.cs is an engine-independent test executable for ControlsCore.cs.
+Roar-Bank-Builder preserves the original add-on's development path assumptions.
+
+Chompy-Arms.json is authored in chest-bone local space. The runtime deliberately
+uses wing rotation only; never parent these arms under scaled wing bones.
+The model builder retains all original vertex data and removes only old arm faces.
+Its development inputs are under game/ and work/, as in the earlier builders.
+
+v0.6.1 uses embedded geometry, not JsonUtility or an external runtime arm JSON.
+The tiny dynamic meshes are parented to the active character. Vertex/normal data
+are transformed from the chest with mirrored triangle winding handled explicitly.

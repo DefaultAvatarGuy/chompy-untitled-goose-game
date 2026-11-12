@@ -1,0 +1,222 @@
+{
+  "version": "0.6.1",
+  "game_code_sha256": "e7aad4ecc9734838f0627424fc7e95dc35a8542b913a90fa58ecc4b758f4fc3b",
+  "fmod_code_sha256": "bbc88bcf82879d7b58e6716ba5156438ff1a7e45f350078c14c9a78ea231d9f6",
+  "files": [
+    {
+      "path": ".doorstop_version",
+      "sha256": "75a2f501000d4fe28f74bc7ee66dae5581959d28b6c44f0c1b0c05cd5ba261e6",
+      "existing_hashes": [
+        "75a2f501000d4fe28f74bc7ee66dae5581959d28b6c44f0c1b0c05cd5ba261e6"
+      ],
+      "preserve_existing": false
+    },
+    {
+      "path": "BepInEx/config/BepInEx.cfg",
+      "sha256": "b11f1699b75a98290bdc0c2ed5890232ec51f6a90949d092e581d5721a21d1b5",
+      "existing_hashes": [
+        "b11f1699b75a98290bdc0c2ed5890232ec51f6a90949d092e581d5721a21d1b5"
+      ],
+      "preserve_existing": true
+    },
+    {
+      "path": "BepInEx/core/0Harmony.dll",
+      "sha256": "1a21cc03424fc82c3dd1346905d16494536b9595ae4162228d99fb7c285c1031",
+      "existing_hashes": [
+        "1a21cc03424fc82c3dd1346905d16494536b9595ae4162228d99fb7c285c1031"
+      ],
+      "preserve_existing": false
+    },
+    {
+      "path": "BepInEx/core/0Harmony.xml",
+      "sha256": "d1f02fc3ada3a13da307de421225bfe56ebe24064370980979391c4be021672f",
+      "existing_hashes": [
+        "d1f02fc3ada3a13da307de421225bfe56ebe24064370980979391c4be021672f"
+      ],
+      "preserve_existing": false
+    },
+    {
+      "path": "BepInEx/core/0Harmony20.dll",
+      "sha256": "c755a5ab2712915a32f9a850d580a8c1b70ff1653bc76600f2767aa8ffccc663",
+      "existing_hashes": [
+        "c755a5ab2712915a32f9a850d580a8c1b70ff1653bc76600f2767aa8ffccc663"
+      ],
+      "preserve_existing": false
+    },
+    {
+      "path": "BepInEx/core/BepInEx.Harmony.dll",
+      "sha256": "00c8f2ac48593e4d45ce4eb26ce4e68b18113c5c489b38b8bf0850f65830d601",
+      "existing_hashes": [
+        "00c8f2ac48593e4d45ce4eb26ce4e68b18113c5c489b38b8bf0850f65830d601"
+      ],
+      "preserve_existing": false
+    },
+    {
+      "path": "BepInEx/core/BepInEx.Harmony.xml",
+      "sha256": "a04fedf08f7c81f5d01aba6f2840a7ffce50b79bbd24587d8dbe69ab73971d29",
+      "existing_hashes": [
+        "a04fedf08f7c81f5d01aba6f2840a7ffce50b79bbd24587d8dbe69ab73971d29"
+      ],
+      "preserve_existing": false
+    },
+    {
+      "path": "BepInEx/core/BepInEx.Preloader.dll",
+      "sha256": "55d3895351a9d16b63b6f35f1c01b44ac650979e853d0bd3a442b92a082af64f",
+      "existing_hashes": [
+        "55d3895351a9d16b63b6f35f1c01b44ac650979e853d0bd3a442b92a082af64f"
+      ],
+      "preserve_existing": false
+    },
+    {
+      "path": "BepInEx/core/BepInEx.Preloader.xml",
+      "sha256": "33275b2783b7b99495a02c098ee86d6a9a2783e884a5c9369021f20c94cf99e7",
+      "existing_hashes": [
+        "33275b2783b7b99495a02c098ee86d6a9a2783e884a5c9369021f20c94cf99e7"
+      ],
+      "preserve_existing": false
+    },
+    {
+      "path": "BepInEx/core/BepInEx.dll",
+      "sha256": "8255b28902886085c578b9e427d3073c97002db85176d2090cdeda90ef14ce70",
+      "existing_hashes": [
+        "8255b28902886085c578b9e427d3073c97002db85176d2090cdeda90ef14ce70"
+      ],
+      "preserve_existing": false
+    },
+    {
+      "path": "BepInEx/core/BepInEx.xml",
+      "sha256": "7ba2266061b9f8a9f146218a312bfdd0d7f2b53a99a7e66c957215c6b66ca0d7",
+      "existing_hashes": [
+        "7ba2266061b9f8a9f146218a312bfdd0d7f2b53a99a7e66c957215c6b66ca0d7"
+      ],
+      "preserve_existing": false
+    },
+    {
+      "path": "BepInEx/core/HarmonyXInterop.dll",
+      "sha256": "7ce1342d3afa0334b59a3e38c0aed15e162b9abe9d46f95f34be44af47f3b493",
+      "existing_hashes": [
+        "7ce1342d3afa0334b59a3e38c0aed15e162b9abe9d46f95f34be44af47f3b493"
+      ],
+      "preserve_existing": false
+    },
+    {
+      "path": "BepInEx/core/Mono.Cecil.Mdb.dll",
+      "sha256": "5896d1898f616701fff18f3b2c71e6b844d2390ef9f41e1c5fccce8cb27c698e",
+      "existing_hashes": [
+        "5896d1898f616701fff18f3b2c71e6b844d2390ef9f41e1c5fccce8cb27c698e"
+      ],
+      "preserve_existing": false
+    },
+    {
+      "path": "BepInEx/core/Mono.Cecil.Pdb.dll",
+      "sha256": "174db44a067f58561510af746f3caeb032037762c57a31c8d9ee32db25174984",
+      "existing_hashes": [
+        "174db44a067f58561510af746f3caeb032037762c57a31c8d9ee32db25174984"
+      ],
+      "preserve_existing": false
+    },
+    {
+      "path": "BepInEx/core/Mono.Cecil.Rocks.dll",
+      "sha256": "54ac539fb5ddc8b44c0e9acd0fcb7324f89d1a072edf8ebc1b06dd691e3d3927",
+      "existing_hashes": [
+        "54ac539fb5ddc8b44c0e9acd0fcb7324f89d1a072edf8ebc1b06dd691e3d3927"
+      ],
+      "preserve_existing": false
+    },
+    {
+      "path": "BepInEx/core/Mono.Cecil.dll",
+      "sha256": "7ae470288fff4a402899c254d0a76cefef55877f5c54f96e83c797cc5bb6e2f6",
+      "existing_hashes": [
+        "7ae470288fff4a402899c254d0a76cefef55877f5c54f96e83c797cc5bb6e2f6"
+      ],
+      "preserve_existing": false
+    },
+    {
+      "path": "BepInEx/core/MonoMod.RuntimeDetour.dll",
+      "sha256": "40e49bb314391cd7bddc2644f8553eeba92c194b940836b103df16955c464e0c",
+      "existing_hashes": [
+        "40e49bb314391cd7bddc2644f8553eeba92c194b940836b103df16955c464e0c"
+      ],
+      "preserve_existing": false
+    },
+    {
+      "path": "BepInEx/core/MonoMod.RuntimeDetour.xml",
+      "sha256": "54887808960d156550b37d602d08847607aa9e908d039f2765fb0b5e79394aa4",
+      "existing_hashes": [
+        "54887808960d156550b37d602d08847607aa9e908d039f2765fb0b5e79394aa4"
+      ],
+      "preserve_existing": false
+    },
+    {
+      "path": "BepInEx/core/MonoMod.Utils.dll",
+      "sha256": "9d1495f147ac93c4f81f84538c1a326e8f8a6aefc78d6289d798f3ce1162c5e9",
+      "existing_hashes": [
+        "9d1495f147ac93c4f81f84538c1a326e8f8a6aefc78d6289d798f3ce1162c5e9"
+      ],
+      "preserve_existing": false
+    },
+    {
+      "path": "BepInEx/core/MonoMod.Utils.xml",
+      "sha256": "0577b362023a3432d6e8d7934c5eddc3e08fdbb19e191af083e341562c5ede38",
+      "existing_hashes": [
+        "0577b362023a3432d6e8d7934c5eddc3e08fdbb19e191af083e341562c5ede38"
+      ],
+      "preserve_existing": false
+    },
+    {
+      "path": "BepInEx/plugins/TinyRexPlaytime/Chompy-Fart.wav",
+      "sha256": "f278261d717c9de2486c177195b21560f4311b54f80b5d4b2852378ffe0c2553",
+      "existing_hashes": [],
+      "preserve_existing": false
+    },
+    {
+      "path": "BepInEx/plugins/TinyRexPlaytime/TinyRexPlaytime.dll",
+      "sha256": "51e517850aaebe7f3f8adabad921b72560b50380c1a0f1eb857adde4dd8a83ce",
+      "existing_hashes": [
+        "39bf547debe558db26a0dee92f916d8ed350082d38595f0bc1d95b8ca468d3b6",
+        "70896ff148722667af48d46c2349c5f89daa042115aba694d5685d520c872c97",
+        "d22235453f8a52328f556a12b4df70cb18dc25d52973b67f26e5e0504b130a0e"
+      ],
+      "preserve_existing": false
+    },
+    {
+      "path": "changelog.txt",
+      "sha256": "b184d858cb0ff6614ca8ce0247fb0d186cabc91ed7e4d4d9d57ea3d744ce98b5",
+      "existing_hashes": [
+        "b184d858cb0ff6614ca8ce0247fb0d186cabc91ed7e4d4d9d57ea3d744ce98b5"
+      ],
+      "preserve_existing": false
+    },
+    {
+      "path": "doorstop_config.ini",
+      "sha256": "4d5c6dfa0f771c6a5b1b0c559aca0bd0ece7d08b08fff894708dc3b73ce73cfc",
+      "existing_hashes": [
+        "4d5c6dfa0f771c6a5b1b0c559aca0bd0ece7d08b08fff894708dc3b73ce73cfc"
+      ],
+      "preserve_existing": false
+    },
+    {
+      "path": "winhttp.dll",
+      "sha256": "8c6cdbc38836dee87e3368f5de1994d7c0ccebf29e4ce7aba3c0981f9375412c",
+      "existing_hashes": [
+        "8c6cdbc38836dee87e3368f5de1994d7c0ccebf29e4ce7aba3c0981f9375412c"
+      ],
+      "preserve_existing": false
+    }
+  ],
+  "known_models": [
+    "20110177d0bdcdc2f13f148db4db07434996b399491e3ed01bb13c8fbd9ccf15",
+    "32e587817d9d811cf90b5a7da450df08a4a4710de09d63009991874bf8589452",
+    "8811742e91bbfa35877477791e15e66af5f60ca86a2df18464c8fd54e5b9033a",
+    "c55d6a30274f7c68c72b68c5fe157a1bb2f96d8498c964e761060c60b0cfac30",
+    "dafc75b13b3d264a2bca38c8733cfb65b7424e2bd1f07849918dbc83dacfd211"
+  ],
+  "known_audio": [
+    "3efbb9c37a9c18948babbb45040d1ac03a1dc775645f8f0beeee1a59e9c5b47b",
+    "8225f740ab0e5263c478a44fd1d6eb2b7bc11d1f689ad0a49c22cbd23b7626a9",
+    "4957401ebaa3e1ba4dadcdc76a812794d576eb69469b7d6b9b18dee26de6d592",
+    "6141123379961f946fee3b4ddc220ef41e01907c57c9e54ab392989046ed8438",
+    "64b798754a84872a83f9530a8479585a4d22262a05a5b71232c05ed3f4ab7202"
+  ],
+  "previous_plugin_sha256": "70896ff148722667af48d46c2349c5f89daa042115aba694d5685d520c872c97"
+}
